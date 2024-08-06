@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    height: 100vh;
+    background-image: url(../img/5bc26c68ca643a35ff2e403f_scott-webb-268893-unsplash\ \(1\).jpg);
+    background-repeat: repeat, repeat;
+    background-size: cover;
+}
+
+.home .home-nav
+{
+    background-color: white;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px 0px;
+    z-index:2;
+}
+
+.home .home-nav .container{
+    width: 90%;
+    margin: auto;
+}
+
+
+.home .home-nav .container h3{
+    float: left;
+    font-size: 30px;
+font-family:Pacifico, sans-serif;    
+}
+
+.home .home-nav .container ul{
+    float: right;
+    list-style: none;
+}
+.home .home-nav .container ul li{
+    float: left;
+    padding: 0px 20px;
+}
+
+.home .home-nav .container ul li a img{
+    width: 15px;
+}
+
+.home .home-nav .container ul li a {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 24px;
+}
+
+.home .home-nav .container ul li a:hover{
+    color: black;
+}
+
+.clr{
+    clear: both;
+}
+
+.home .home-content{
+    padding: 200px 0px;
+}
+
+.home .home-content .home-content-left{
+    margin-left: 5%;
+    width: 45%;
+    float: left;
+}
+
+.home .home-content .home-content-left h1{
+margin: 20px 0px;
+font-family: Poppins, sans-serif;
+}
+
+.home .home-content .home-content-left button{
+    margin: 20px 0px;
+    border: none;
+    padding: 20px 40px;
+    background-color: #ac1313;
+    color: white;
+    font-family:Poppins,sans-serif; 
+    line-height: 22px;
+}
+
+
+.home .home-content .home-content-left button:hover{
+    background-color: black;
+    position: relative;
+    bottom:5px;
+    font-family:Poppins,sans-serif; 
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.home .home-content .home-content-right {
+    width: 50%;
+    float: left;
+}
+
+
+.home .home-content .home-content-right img{
+    width: 100%;
+}
+
+.home-production 
+{
+width: 90%;
+margin: auto;
+}
+.home-production .our-products
+{  padding: 20px;
+    width: 90%;
+    margin: auto;
+}
+.home-production .our-products h1
+{
+    position:relative;
+    top:100px;
+    right:9px;
+    font-size: 34px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: Poppins, sans-serif;
+    line-height: 22px;
+}
+.home-production .our-products p
+{
+    position:relative;
+    top:50px;
+    right:9px;
+    color: #f08080;
+    letter-spacing: 1px;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+}
+.home-production .our-products .item
+{
+    position:relative;
+    left:60px;
+    top:200px;
+    margin:60px;
+    float: left;
+    border:30px solid rgba(0, 0, 0,0.5);
+    border-radius: 240px;
+    width: 200px;
+    height: 200px; 
+}
+.home-production .our-products .item img
+{
+    width: 100px;
+    height: 80px;
+    padding-top:25px;
+    padding-left: 40px;
+}
+.home-production .our-products .item .item-desc
+{
+text-align: center;
+font-weight: bold;
+color: white;
+}
+.home-production .our-products .item a
+{
+    text-decoration: none;
+}
+.home-production .our-products .left-desc 
+{
+    float: left;
+    width:45%; 
+    position: relative;
+    top:250px;
+}
+
+.home-production .our-products .right
+{
+    float: left;
+    width:45%; 
+    position: relative;
+    top:250px;
+    left:150px
+}
+
+.dec
+{
+    width:90%;
+    margin: auto;
+}
+.dec .right-side
+{
+   position:relative;
+   top:500px;
+   width: 45%;
+
+}
+
+.dec .right-side img
+{
+background-color: #f5f5f5;
+width: 250px;
+position: relative;
+}
+.dec .right-side h3
+{
+    letter-spacing: 2px;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+}
+.dec .right-side p
+{
+    color:#6c6c6c; 
+    text-align: left;
+    line-height: 24px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+   width: 500px;
+}
+
+.dec .left-side 
+{
+position:relative;
+left: 690px;
+top: 100px;
+width: 45%;
+}
+.dec .left-side img
+{
+    position: relative;
+    top: 40px;
+    background-color: #f5f5f5;
+    width:100%;
+}
+.dec .left-side p
+{
+    color:#6c6c6c; 
+    text-align: left;
+    line-height: 24px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+   width: 500px;
+}
+.Container
+{
+    width: 90%;
+    margin: auto;
+    position:relative;
+    top:400px;
+    bottom: 0px;
+    left: 0px;
+    right:290px ;
+}
+.Container .collection .col
+{
+    color: #f08080;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+}
+.Container .collection 
+{
+    float:unset;
+    font-size: 30px;
+font-family:Poppins, sans-serif;
+text-align: center;
+margin-top: 200px;
+padding:10px 0px ;    
+letter-spacing:2px;
+}
+.Container .collection .gall
+{
+    padding:40px 20px;
+    float: left;
+    font-size:14px;
+    
+}
+.Container .collection .gall img
+{
+    width: 300px;
+    opacity:0.7;
+}
+.Container .collection .gall img:hover
+{
+    position: relative;
+    top:2px; 
+    opacity:0.9;
+}
+.Container .collection .gall a
+{
+    text-decoration: none;
+    color:#6c6c6c; 
+}
+.Container .collection .gall a:hover
+{
+    color:#ac1313;
+}
+
+.Container .collection .gall p
+{
+padding:10px 0px;
+}
+.Container .collection  button 
+{
+    margin: 20px;
+    margin-right:110px;
+    border: none;
+    padding: 20px 40px;
+    background-color: #ac1313;
+    color: white;
+    font-family:Poppins,sans-serif; 
+    line-height: 22px;
+    cursor: pointer;
+}
+.Container .collection  button:hover
+{
+    background-color: black;
+    position: relative;
+    bottom:5px;
+}
+.ready
+{
+    width: 90%;
+    margin: auto;
+    position:relative;
+    top:400px;
+    bottom: 0px;
+    left: 0px;
+    right:290px ;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    
+}
+.ready .containeR 
+{
+    
+    position:relative;
+    top:0px;
+    left:20px;
+    right:20px;
+    bottom:0px;
+ width: 45%;
+
+}
+.ready .containeR img
+{
+    position: relative;
+object-fit: cover;
+width: 100vw;
+height: 100vh;
+}
+.ready .containeR .txxt
+{
+position: relative;
+bottom: 300px;
+letter-spacing: 2px;
+padding: 10px 5px;
+
+}
+.ready .containeR .txxt h2
+{
+    font-size: 36px;
+     padding: 10px 0px;   
+}
+.ready .containeR .txxt button
+{
+    border-style: none;
+    padding: 20px 40px;
+    margin: 10px 0px;
+    background-color: #ac1313;
+    color: white;
+    font-family:Poppins,sans-serif; 
+    line-height: 22px;
+    cursor: pointer;
+}
+.ready .containeR .txxt button:hover
+{
+    background-color: black;
+    position: relative;
+    bottom:5px;
+   
+}
+.news .conta
+{
+    position:relative;
+    top:0px;
+    left:20px;
+    right:20px;
+    bottom:0px;
+ width: 45%;
+}
+.news .conta img
+{
+    position: relative;
+    top:300px;
+    left:550px;
+}
+.news .conta .txT h3
+{
+    position: relative;
+    
+}
+.q .c img
+{
+    width:40px;
+    background-color:#ebb96a;
+    border-radius: 100px;
+    background-size:38px;
+    position: relative;
+    top:190px;
+    left:575px;
+}
+.q .c .re p
+{
+    color:#f08080;
+    font-family:Poppins, sans-serif;
+    position: relative;
+    top:390px;
+    left:540px;
+}
+.q .c .re .ei button:hover
+{
+    background-color: #ac1313;
+    position: relative;
+    bottom:5px;
+}
+.end .End
+{
+    position: relative ;
+    top:600px;
+    left:400px;
+}
+.end .End p
+{
+    text-align:center;
+    font-size: 15px;
+    width:600px;
+    letter-spacing:3px;
+    color:#6c6c6c;
+    padding: 40px 20px;
+    position: relative;
+    right:100px;
+    font-family: Libre Franklin, sans-serif;
+   
+}
+.end .End h2
+{
+    position: relative;
+    left: 100px;
+    font-family:Pacifico, sans-serif;
+    font-size: 34px;
+}
+.end .End .immg 
+{
+    position: relative;
+    padding: 20px 40px;
+    width: 100px;
+    flex-direction: column;
+}
+.end .End .gll img
+{
+    position: relative;
+padding: 20px 100px;
+width: 40px;
+flex-direction: column;
+}
+.inf
+{
+width: 90%;
+margin: auto;
+}
+.inf .foo
+{
+    position: relative;
+    top:400px;
+    left:200px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    
+}
+.inf .foo .gll
+{
+    padding:40px 80px;
+    position: relative;
+    top:200px;
+   text-align: center;
+    width:20px;
+float: left;
+}
+
+
