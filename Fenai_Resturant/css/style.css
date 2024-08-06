@@ -1,0 +1,525 @@
+*
+{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+}
+.container
+{
+    width:100%;
+    margin: auto;
+    
+}
+.container .home-page
+{
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+    height:100vh;
+position: relative;
+}
+header
+{
+    padding:10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+ul
+{
+    width:40%;
+    display: flex;
+    justify-content:space-between;
+    list-style:none; 
+    margin: auto;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+a:hover
+{
+color:#ffbe33;
+
+}
+span
+{
+    padding: 0px 20px;
+    font-weight: bold;
+    font-size: 32px;
+    font-family:'Dancing Script';
+    color:white;
+}
+.icons
+{
+    padding: 20px 40px; 
+}
+.icons i
+{
+    margin: 0px 20px;
+}
+.icons .ord
+{
+    border-style:none;
+    border-radius: 45px;
+    background-color: #ffbe33;
+    padding:15px 20px;
+    color: white;
+}
+.icons .ord:hover
+{
+    opacity: 0.9;
+}
+.content
+{
+    width:40%;
+    position: absolute;
+    top:200px;
+    left:90px;
+}
+.content h1
+{
+font-family:'Dancing Script';
+font-size: 3.5rem;
+padding: 10px 20px;
+color:white;
+}
+.content p
+{
+    color: white;
+    padding: 10px 15px;
+    font-size:14px;
+    font-weight: 300;
+}
+.content a
+{
+    border-style:none;
+    border-radius: 45px;
+    background-color: #ffbe33;
+    padding:15px 40px;
+    color: white;
+    position: absolute;
+    left: 20px;
+    margin: 20px 0px;
+    transition: .2s;
+}
+.content a:hover
+{
+    opacity: 0.9;
+}
+.dot
+{
+margin:120px 45px;
+color: white;
+cursor: pointer;
+}
+.catg
+{
+    width:90%;
+    margin:auto;
+    padding: 60px 0px;
+    display:flex;
+    gap:40px;
+}
+.box
+{
+    background-color:#222831;
+    width:50%;
+    border-radius:10px;
+    padding:20px 0;
+    display: flex;
+    justify-content:space-around;
+    gap:100px;
+}
+.box .box-img
+{
+
+    border:solid 3px #ffbe33;
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    overflow:hidden;
+}
+.box .box-img img
+{
+    width: 100%;
+    transition:transform .2s;
+}
+
+.box .detls 
+{
+    position: relative;
+    right:100px;
+    top:40px;
+    font-size:28px;
+    line-height:60px;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-weight:bold;
+    transition:0.5s;
+    position: relative;
+}
+.box .box-img img:hover
+{
+    transform: scale(1.1);
+}
+.catg .detls .or a
+{
+    position:relative;
+    bottom:20px;
+    left:24px;
+    border-style:none;
+    border-radius: 45px;
+    background-color:#ffbe33;
+    padding:15px 40px;
+    color: white;
+    border-radius:45px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: none;
+    font-weight: 400;
+    }
+.catg .detls .or a:hover
+{
+    background-color:#c68a0a;
+
+}
+.our-menu
+{
+    width:100%;
+    margin:auto;
+}
+.our-menu .Container h2
+{
+    padding:80px ;
+    font-size:40px;
+    font-family:'Dancing Script', cursive;
+    text-align: center;
+}
+.our-menu ul a
+{
+    font-family:"Open Sans", sans-serif;
+    color:black;
+    padding: 7px 25px;
+    font-weight:400;
+    text-transform: none;
+}
+.card-container
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top:100px;
+    padding: 20px 20px;
+}
+.card
+{
+text-align: center;
+width:300px;
+background-color:#f1f2f3;
+border-radius:50px;
+
+}
+.card .content-m 
+{
+overflow:hidden;
+width:100%;
+height:250px;
+background-color:#222831;
+border-top-left-radius:20px;  
+border-bottom-right-radius: 20px;
+color:white;
+position:relative;
+
+}
+.card .content-m p 
+{
+width:300px;
+height:20px;
+font-size:15px;
+text-align:left;
+line-height: 20px;
+padding:20px 20px;
+}
+.card .content-m h5 
+{
+width:300px;
+height:20px;
+font-size:15px;
+text-align:left;
+padding:20px 20px;
+}
+.card img
+{
+    max-width:100%;
+    max-height:150px;
+}
+.price
+{
+    border-radius: 100px;
+    display:flex;
+    position:relative;
+    top:120px;
+    right:20px;
+    border-radius:50px;
+    
+}
+.price i
+{
+border:solid 10px #ffbe33;
+background-color: #ffbe33;
+border-radius:100px;
+font-size:18px;
+cursor:pointer;
+}
+.price p
+{
+    position:relative;
+    left:10px;
+}
+.card-container .card img
+{
+    transition: 0.5s;
+}
+.card-container .card img:hover
+{
+    transform:scale(1.04);
+}
+ button
+{
+    border-style:none;
+    padding:10px 55px;
+    position: relative;
+    left:540px;
+    top:15px;
+    border-radius:45px;
+    color: white;
+    background-color: #ffbe33;
+    font-family:none;
+    font-weight:400;
+    font-size:18px;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color:#c68a0a;
+}
+.we-r
+{
+    width:100%;
+    margin: auto;
+    height: 751px;
+    position: relative;
+    top:100px;
+    background-color:#222831;
+}
+.we-r .img-s img
+{
+    width:430px;
+    height:551px;
+    position: relative;
+    left:50px;
+    top:50px;
+}
+.we-r .img-s .pp
+{
+    width:580px;
+    height:451px;
+    position: relative;
+    bottom:290px;
+    left:550px;
+    font-family: "Open Sans", sans-serif;
+    font-size:18px;
+}
+.we-r .img-s 
+{
+    color: white;
+    letter-spacing:1px;
+}
+.we-r .img-s .pp h2
+{
+    padding:20px 0px;
+    font-size:30px;
+    font-family:'Dancing Script', cursive;
+}
+.we-r .img-s .pp button
+{
+    position:relative;
+    top:30px;
+    left:2px;
+}
+.container-form 
+{
+    margin:auto;
+    width:90%;
+}
+.container-form form
+{
+
+    position: relative;
+    top:200px;
+}
+ .container-form form input
+{ size: 200px;
+    width:400px;
+    padding:10px 40px;
+    border-style:none;
+    border-radius:5px;
+    border:solid 1px rgba(0, 0, 0,0.5); 
+    margin:10px;
+    font-size:1rem;
+    font-weight:400;
+    outline:none;
+}
+.container-form h2
+{
+margin: 0 10px;
+line-height:40px;
+font-family:'Dancing Script', cursive;
+font-weight:500;
+font-size:2.5rem;
+}
+.btt
+{
+    position: relative;
+    top:215px;
+    left:70px;
+}
+.map
+{
+    width:400px;
+    position: relative;
+    left:600px;
+    bottom:150px;
+    opacity: 0.7;
+}
+.wh h2
+{
+    text-align: center;
+    font-family:'Dancing Script', cursive;
+    font-size:2.5rem;
+    font-weight: 600;
+    line-height:90px;
+
+}
+.op 
+{
+display: flex;
+justify-content:space-between;
+margin: auto;
+padding: 20px 30px;
+
+}
+.op .dsk
+{
+    border-radius:10px;
+    background-color: #222831;
+padding: 10px 20px;
+margin: 10px;
+width:50%;
+color: white;
+font-size:18px;
+line-height:40px;
+font-family: "Open Sans", sans-serif;
+font-weight: 500;
+height:200px;
+}
+.op .dsk h6
+{
+
+margin: 10px;
+width:50%;
+color: white;
+font-size:18px;
+line-height:40px;
+font-family: "Open Sans", sans-serif;
+font-weight:800;
+}
+.imgk img
+{
+    width: 100px;
+    border-radius: 50px;
+    border: solid 3px #c68a0a;
+}
+.imgk{
+    display: flex;
+    justify-content:center;
+    gap:200px;
+    padding: 20px 40px;
+}
+.bttn
+{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    position: relative;
+    left:300px;
+    bottom: 10px;
+    gap:40px;
+}
+.bttn i 
+{
+    color:white;
+    background-color:#ffbe33;
+    font-size:30px;
+    border-radius:100px;
+    border-width:200px;
+    border:solid 3px #ffbe33 ; 
+}
+.p
+{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    width: 100%;
+    height:550px;
+    background-color: #222831;
+}
+.cntcs
+{
+    color: white;
+    padding: 40px 80px;
+    font-size:20px;
+    max-width:33.33333%;
+    text-align: center;
+    line-height:2;
+}
+.cntcs .inqs
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 40px  30px;
+}
+.cntcs h4
+{
+    padding: 20px 20px;
+    font-family:'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 600;
+}
+.cntcs .ioc
+{
+    display: flex;
+    justify-content: space-between;
+    font-family:'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 600;
+}
+.cntcs .inqs:hover
+{
+    color: #ffbe33;
+}
+.cntcs .o
+{
+    position: relative;
+    top:220px;
+    width:100%;
+    right:400px;
+    font-family:none ;
+    font-size:10px;
+    line-height:2;
+    font-weight: 500;
+}
